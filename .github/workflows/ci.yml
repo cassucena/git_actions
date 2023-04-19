@@ -44,6 +44,5 @@ jobs:
         image: cassucena/demo-app
         tags: v1, latest
         registry: docker.io
-        dockerfile: Dockerfile.ci
         username: cassucena
         password: ${{ secrets.DOCKER_PASSWORD }}
